@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+nav {
+    float: left;
+    width: 30%;
+    height: 30%; /* only for demonstration, should be removed */
+    background: #333;
+    padding: : 20px;
+    margin-left: 16px;
+    margin-bottom: 16px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    color: white;
+    padding-left: 8px;
+}
+
+section:after{
+
+	content: "";
+	display: table;
+	clear : both;
+}
+
+h1{
+	color : white;
+	text-align: center;
+	margin-top: 12px;
+	padding-top: 48px;
+	font-size: 48px;
+}
+
+h2{
+	color: white;
+	text-align: center;
+	padding-bottom: 12px;
+
+}
+
+body{
+	background-color: cyan;
+}
+
+div{
+	background-color: #333;
+	margin-left: 16px;
+	margin-right: 16px;
+}
+
+footer {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
