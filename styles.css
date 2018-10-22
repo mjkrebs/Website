@@ -21,6 +21,8 @@ nav ul {
 
 section:after{
 
+    vertical-align: center;
+
 	content: "";
 	display: table;
 	clear : both;
